@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/myb/static/media/cta_contact_resize.02f1372c.jpeg"
   },
   {
-    "revision": "9d4127d0d04517d408686e74fd9a7627",
+    "revision": "3f00a9eaa97e9f0d7625e1a377735c7a",
     "url": "/myb/index.html"
   }
 ];
