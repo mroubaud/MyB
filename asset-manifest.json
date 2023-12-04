@@ -1,9 +1,9 @@
 {
-  "main.css": "/myb/static/css/main.4c3cda4f.chunk.css",
-  "main.js": "/myb/static/js/main.38008c42.chunk.js",
-  "main.js.map": "/myb/static/js/main.38008c42.chunk.js.map",
-  "static/js/1.0eaec86d.chunk.js": "/myb/static/js/1.0eaec86d.chunk.js",
-  "static/js/1.0eaec86d.chunk.js.map": "/myb/static/js/1.0eaec86d.chunk.js.map",
+  "main.css": "/myb/static/css/main.835fa114.chunk.css",
+  "main.js": "/myb/static/js/main.c78dbd3b.chunk.js",
+  "main.js.map": "/myb/static/js/main.c78dbd3b.chunk.js.map",
+  "static/js/1.93b675bd.chunk.js": "/myb/static/js/1.93b675bd.chunk.js",
+  "static/js/1.93b675bd.chunk.js.map": "/myb/static/js/1.93b675bd.chunk.js.map",
   "runtime~main.js": "/myb/static/js/runtime~main.15e27e8b.js",
   "runtime~main.js.map": "/myb/static/js/runtime~main.15e27e8b.js.map",
   "static/media/MyB_logo-removebg_bw.png": "/myb/static/media/MyB_logo-removebg_bw.7aa7c004.png",
@@ -15,8 +15,8 @@
   "static/media/grupo_gmp.png": "/myb/static/media/grupo_gmp.bc06570c.png",
   "static/media/ascensor_arcuri.png": "/myb/static/media/ascensor_arcuri.c2d53f95.png",
   "static/media/MyB_logo-removebg.png": "/myb/static/media/MyB_logo-removebg.42d44da3.png",
-  "static/css/main.4c3cda4f.chunk.css.map": "/myb/static/css/main.4c3cda4f.chunk.css.map",
+  "static/css/main.835fa114.chunk.css.map": "/myb/static/css/main.835fa114.chunk.css.map",
   "index.html": "/myb/index.html",
-  "precache-manifest.242d05142ecddd687f8a98705e0cf0e7.js": "/myb/precache-manifest.242d05142ecddd687f8a98705e0cf0e7.js",
+  "precache-manifest.0409b5d127b4056ecfca7340104cd918.js": "/myb/precache-manifest.0409b5d127b4056ecfca7340104cd918.js",
   "service-worker.js": "/myb/service-worker.js"
 }
