@@ -1,9 +1,9 @@
 {
-  "main.css": "/myb/static/css/main.4c3cda4f.chunk.css",
-  "main.js": "/myb/static/js/main.c132a9d7.chunk.js",
-  "main.js.map": "/myb/static/js/main.c132a9d7.chunk.js.map",
-  "static/js/1.790be1e6.chunk.js": "/myb/static/js/1.790be1e6.chunk.js",
-  "static/js/1.790be1e6.chunk.js.map": "/myb/static/js/1.790be1e6.chunk.js.map",
+  "main.css": "/myb/static/css/main.59a47388.chunk.css",
+  "main.js": "/myb/static/js/main.e5a1acab.chunk.js",
+  "main.js.map": "/myb/static/js/main.e5a1acab.chunk.js.map",
+  "static/js/1.f2f897d6.chunk.js": "/myb/static/js/1.f2f897d6.chunk.js",
+  "static/js/1.f2f897d6.chunk.js.map": "/myb/static/js/1.f2f897d6.chunk.js.map",
   "runtime~main.js": "/myb/static/js/runtime~main.15e27e8b.js",
   "runtime~main.js.map": "/myb/static/js/runtime~main.15e27e8b.js.map",
   "static/media/MyB_logo-removebg_bw.png": "/myb/static/media/MyB_logo-removebg_bw.7aa7c004.png",
@@ -15,8 +15,8 @@
   "static/media/grupo_gmp.png": "/myb/static/media/grupo_gmp.bc06570c.png",
   "static/media/ascensor_arcuri.png": "/myb/static/media/ascensor_arcuri.c2d53f95.png",
   "static/media/MyB_logo-removebg.png": "/myb/static/media/MyB_logo-removebg.42d44da3.png",
-  "static/css/main.4c3cda4f.chunk.css.map": "/myb/static/css/main.4c3cda4f.chunk.css.map",
+  "static/css/main.59a47388.chunk.css.map": "/myb/static/css/main.59a47388.chunk.css.map",
   "index.html": "/myb/index.html",
-  "precache-manifest.76507fd322128d606a4bb763293a05f7.js": "/myb/precache-manifest.76507fd322128d606a4bb763293a05f7.js",
+  "precache-manifest.0c5b52f6cf67e3978ff546150b44cf26.js": "/myb/precache-manifest.0c5b52f6cf67e3978ff546150b44cf26.js",
   "service-worker.js": "/myb/service-worker.js"
 }
