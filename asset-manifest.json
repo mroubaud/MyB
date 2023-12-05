@@ -1,7 +1,7 @@
 {
   "main.css": "/myb/static/css/main.59a47388.chunk.css",
-  "main.js": "/myb/static/js/main.e5a1acab.chunk.js",
-  "main.js.map": "/myb/static/js/main.e5a1acab.chunk.js.map",
+  "main.js": "/myb/static/js/main.203a8dd3.chunk.js",
+  "main.js.map": "/myb/static/js/main.203a8dd3.chunk.js.map",
   "static/js/1.f2f897d6.chunk.js": "/myb/static/js/1.f2f897d6.chunk.js",
   "static/js/1.f2f897d6.chunk.js.map": "/myb/static/js/1.f2f897d6.chunk.js.map",
   "runtime~main.js": "/myb/static/js/runtime~main.15e27e8b.js",
@@ -17,6 +17,6 @@
   "static/media/MyB_logo-removebg.png": "/myb/static/media/MyB_logo-removebg.42d44da3.png",
   "static/css/main.59a47388.chunk.css.map": "/myb/static/css/main.59a47388.chunk.css.map",
   "index.html": "/myb/index.html",
-  "precache-manifest.0c5b52f6cf67e3978ff546150b44cf26.js": "/myb/precache-manifest.0c5b52f6cf67e3978ff546150b44cf26.js",
+  "precache-manifest.2e2ecc2cb49345476f6779e3d5516f32.js": "/myb/precache-manifest.2e2ecc2cb49345476f6779e3d5516f32.js",
   "service-worker.js": "/myb/service-worker.js"
 }
