@@ -1,0 +1,582 @@
+/* -Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+/* -Spacyng System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+/* rem and em do not depend on html font-size in media queries. 
+Instead, 1rem=1em=16px */
+
+/*******************************/
+/* BELOW 1344px (Smaller Desktops)  */
+/*******************************/
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+}
+/*******************************/
+/* BELOW 1110px (Landscape Tablets)  */
+/*******************************/
+
+@media (max-width: 68em) {
+  .service-title {
+    font-size: 2.2rem;
+  }
+
+  .service-description {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .btn-services {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  a.btn.btn-services {
+    font-size: 1.6rem;
+  }
+
+  .premium::before {
+    position: absolute;
+    content: "Más vendido";
+    text-transform: uppercase;
+    background-color: #ffe066;
+    font-weight: 600;
+    font-size: 1.2rem;
+    top: 8.5%;
+    right: -10%;
+    transform: rotate(45deg);
+    padding: 0.4rem 3.2rem;
+    letter-spacing: -0.75;
+  }
+  .cta-form label {
+    font-size: 1.6rem;
+  }
+
+  .cta-form input,
+  select {
+    font-size: 1.6rem;
+  }
+}
+
+/*******************************/
+/* BELOW 970px (Tablets)  */
+/*******************************/
+@media (max-width: 61em) {
+  .nav-list {
+    gap: 2.4rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .btn-services {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  a.btn.btn-services {
+    font-size: 1.6rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+    padding: 1.2rem 2.4rem;
+  }
+  .hero-title {
+    font-size: 3.6rem;
+  }
+  .hero-text {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 4.8rem;
+  }
+
+  .margin-bottom-sm {
+    margin-bottom: 4.8rem;
+  }
+
+  .service-plan {
+    width: 50%;
+    padding: 4.8rem 1.2rem;
+    justify-self: center;
+  }
+
+  .premium::before {
+    position: absolute;
+    content: "Más vendido";
+    text-transform: uppercase;
+    background-color: #ffe066;
+    font-weight: 600;
+    font-size: 0.9rem;
+    top: 6%;
+    right: -10%;
+    transform: rotate(45deg);
+    padding: 0.4rem 3.2rem;
+    letter-spacing: -0.75;
+  }
+
+  .cta-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .join-us-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*******************************/
+/* BELOW 800px (small-Tablets)  */
+/*******************************/
+
+@media (max-width: 50em) {
+  .nav-list {
+    gap: 1.2rem;
+  }
+
+  .main-nav-list {
+    gap: 1.2rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+    padding: 1.2rem 2.2rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 0rem;
+  }
+  .img-text-box {
+    grid-row: 1;
+  }
+
+  .img-hero-box {
+    grid-row: 2;
+    width: 75%;
+    height: 75%;
+  }
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 2.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .arrow-left-slider-projects {
+    transform: translateX(50%);
+  }
+  .arrow-right-slider-projects {
+    transform: translateX(0%);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  footer {
+    padding: 4rem 0;
+    border-top: solid 1px #eee;
+  }
+
+  .footer-title {
+    font-size: 1.4rem;
+  }
+
+  .contact-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .contact-item {
+    font-size: 1rem;
+  }
+
+  .company-item {
+    font-size: 1rem;
+  }
+
+  .footer-company {
+    display: none;
+  }
+}
+/*******************************/
+/* BELOW 672px (Phones)  */
+/*******************************/
+
+@media (max-width: 42em) {
+  .service-plan {
+    width: 65%;
+    padding: 4.8rem 1.2rem;
+    justify-self: center;
+  }
+
+  .arrow-left-slider-projects {
+    transform: translateY(600%);
+  }
+  .arrow-right-slider-projects {
+    transform: translateY(600%);
+  }
+
+  .cta-form label {
+    font-size: 1.2rem;
+  }
+
+  .cta-form input,
+  select {
+    font-size: 1.2rem;
+  }
+
+  .footer-grid {
+    gap: 2.4rem;
+  }
+
+  /*////////// MOBILE-NAV /////////*/
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    /* relative to header */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* efecto de que venga desde la derecha  */
+    transition: all 2 ease-in-out;
+    transform: translateX(100%);
+
+    /* blur effect in mobile nav, webkit for safari, it doesn't work for firefox*/
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+
+    /* display none doesn't allow animations
+    display: none; */
+    /* 1)hide element visually */
+    opacity: 0;
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+    /* 3)Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .mobile-nav-visible .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .main-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2.4rem;
+  }
+
+  .mobile-nav-visible .mobile-nav-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .mobile-nav-visible .mobile-nav-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  .dot-slider-projects {
+    /* display none doesn't allow animations
+    display: none; */
+    /* 1)hide element visually */
+    opacity: 0;
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+    /* 3)Hide it from screen readers */
+    visibility: hidden;
+    display: none;
+  }
+
+  .arrow-left-slider-projects {
+    /* Arrow slider height: 185px -> 92.5px -> 11.56rem */
+    position: absolute;
+    top: 92.5px;
+  }
+  .arrow-right-slider-projects {
+    /* Arrow slider height: 185px -> 92.5px -> 11.56rem */
+    position: absolute;
+    top: 92.5px;
+  }
+}
+
+/*******************************/
+/* BELOW 576px (Phones)  */
+/*******************************/
+@media (max-width: 36em) {
+  .container {
+    padding: 0 1.6rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .heading-secondary {
+    font-size: 1.8rem;
+  }
+
+  .subheading {
+    font-size: 1.2rem;
+  }
+
+  .service-plan {
+    background-color: #fff;
+    border: solid 2px #e7f5ff;
+    padding: 4.8rem 2.4rem;
+    border-radius: 11px;
+    width: 80%;
+    position: relative;
+  }
+
+  .service-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2.8rem;
+    color: #1971c2;
+    text-transform: uppercase;
+  }
+
+  .service-description {
+    display: none;
+  }
+
+  .btn-services {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  a.btn.btn-services {
+    font-size: 1.4rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.4rem;
+    padding: 1.2rem 1.8rem;
+  }
+
+  .premium::before {
+    font-size: 1rem;
+    top: 13%;
+    right: -10%;
+    letter-spacing: -0.75;
+  }
+
+  .premium {
+    background-color: #e7f5ff;
+    overflow: hidden;
+  }
+
+  .project-plan {
+    width: 90%;
+  }
+
+  .arrow-slider-projects {
+    grid-column: start/end;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+    position: relative;
+  }
+
+  .arrow-left-slider-projects {
+    position: absolute;
+    top: 92.5px;
+    /* Arrow slider height: 527px -> 263.5px -> 16.47rem */
+  }
+
+  .arrow-right-slider-projects {
+    position: absolute;
+    top: 92.5px;
+    right: 4px;
+    /* Arrow slider height: 527px -> 263.5px -> 16.47rem */
+  }
+
+  .form-box-cta {
+    padding: 2.4rem 1.2rem;
+  }
+
+  .cta-text {
+    font-size: 1.4rem;
+  }
+
+  .cta-form label {
+    font-size: 1rem;
+  }
+
+  .cta-form input,
+  select {
+    font-size: 1.4rem;
+  }
+
+  .cta-form input::placeholder {
+    /* texto de ejemplo en los campos input */
+    font-size: 1.4rem;
+  }
+
+  .footer-grid {
+    grid-column: 1fr 1fr;
+    gap: 0rem;
+  }
+
+  .footer-social-media {
+    display: none;
+  }
+}
+
+/*******************************/
+/* BELOW 408px (Phones)  */
+/*******************************/
+
+@media (max-width: 25.5em) {
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  .hero-text {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.6rem;
+    padding: 0.8rem 1.6rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .img-hero-box {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0rem;
+  }
+  */ .service-plan {
+    width: 95%;
+  }
+
+  .arrow-slider-projects {
+    grid-column: start/end;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+    position: relative;
+  }
+
+  .arrow-left-slider-projects {
+    position: absolute;
+    top: 200px;
+    /* Arrow slider height: 527px -> 263.5px -> 16.47rem */
+  }
+
+  .arrow-right-slider-projects {
+    position: absolute;
+    top: 200px;
+    right: 4px;
+    /* Arrow slider height: 527px -> 263.5px -> 16.47rem */
+  }
+
+  .arrow-icon-projects {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .footer-grid {
+    display: none;
+  }
+}
+
+/*******************************/
+/* BELOW 368px (Phones)  */
+/*******************************/
+
+@media (max-width: 23em) {
+  .arrow-slider-projects {
+    grid-column: start/end;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 30fr 1fr;
+    position: relative;
+  }
+
+  .arrow-icon-projects {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .arrow-left-slider-projects {
+    position: absolute;
+    top: 230px;
+    /* Arrow slider height: 527px -> 263.5px -> 16.47rem */
+  }
+
+  .arrow-right-slider-projects {
+    position: absolute;
+    top: 230px;
+    right: 4px;
+    /* Arrow slider height: 527px -> 263.5px -> 16.47rem */
+  }
+}

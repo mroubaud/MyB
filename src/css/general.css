@@ -1,0 +1,181 @@
+/*
+
+--- 01 TYPOGRAPHY SYSTEM
+
+-Spacyng System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+-Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-Font weights
+Default: 400
+Medium: 500 ---> strong
+Semi-bold: 600
+Bold: 700
+
+-Line Heights
+Default: 1
+Secondary Titles: 1.2
+Primary Titles: 1.05
+Paragraph: 1.6
+Large: 1.8
+
+--- 02 COLORS
+
+-Primary: #339af0
+-Tints: 
+#e7f5ff
+#228be6
+#1971c2
+#1864ab
+-Shades: 
+-Accents:
+#ffe066
+-Greys: 
+#888
+#767676 lightness grey allow with #fff
+#555 
+#333
+#6f6f6f lightness grey allow in #fdf2e9
+
+--- 03 LETER SPACE
+Default: 1
+Primary Titles: -0.5
+Subheading: 0.75
+
+
+--- 05 SHADOWS
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 1.5);
+
+--- 06 BORDER RADIUS
+Default: 9px
+Cards: 11px
+
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10 px; Not adapted to web browser*/
+  /* 10px/16px=0.625 16px is browser font size and 10px the scale we wan to use for 1 rem*/
+  /* percentage of user's browser font-size setting */
+  /* 1 rem */
+  font-size: 62.5%;
+  /* para efectos de transiciones */
+  overflow-x: hidden;
+  /* Does not work on Safari */
+  scroll-behavior: smooth;
+}
+
+/* PAGE SECTIONS */
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  /* para efectos de transiciones */
+  overflow-x: hidden;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/*******************************/
+/* GRIDS */
+/*******************************/
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/*******************************/
+/* HEADINGS*/
+/*******************************/
+.heading-primary {
+  color: #333;
+  font-size: 4.4rem;
+  line-height: 1.05;
+  letter-spacing: -0.5;
+}
+
+.heading-secondary {
+  color: #333;
+  font-size: 3.6rem;
+  line-height: 1.2;
+}
+
+.subheading {
+  text-transform: uppercase;
+  color: #1971c2;
+  font-size: 1.2rem;
+  letter-spacing: 0.75;
+  font-weight: 800;
+}
+
+/*******************************/
+/* BUTTONS */
+/*******************************/
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  background-color: #1971c2;
+  color: #fff;
+  border-radius: 9px;
+  transition-timing-function: ease-in;
+  transition-duration: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #1864ab;
+}
+
+/*******************************/
+/* QUOTES */
+/*******************************/
+
+/*******************************/
+/* AUX */
+/*******************************/
+
+.margin-right-sm {
+  margin-right: 1.6rem;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 9.6rem;
+}
