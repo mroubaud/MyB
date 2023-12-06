@@ -1,6 +1,6 @@
 // image projects
 import React from "react";
-import ImgTorreLapeña from "../img/projects/torre_mecanica_lapeña.png";
+import ImgTorreLapena from "../img/projects/torre_mecanica_lapena.png";
 import ImgSanIgnacioIdom from "../img/projects/san_ignacio_idom.png";
 import ImgDicsesuOurense34 from "../img/projects/discesur_ourense_34.png";
 import ImgGrupoGMP from "../img/projects/grupo_gmp.png";
@@ -73,7 +73,7 @@ export const projectsArray = [
     name: "Torre Mecánica La Peña",
     description:
       "Se ha reformado el muro cortina, carpintería cristal, y todo el cristal de la entrada del edificio.",
-    img: ImgTorreLapeña,
+    img: ImgTorreLapena,
     imgAlt: "Edificio Torre Mecánica La Peña",
   },
   {
